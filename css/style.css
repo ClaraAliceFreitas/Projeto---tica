@@ -38,20 +38,24 @@ main{
     background-color: white;
     box-shadow:  0 3px 3px rgb(180, 210, 230);
 }
+img{
+    margin-left: 90px;
+    margin-top: 50px;
+}
 section{
     border:1px solid red;
     height: 420px;
     padding: 5%;
 }
 .box-content-section{
-    background-color: darkturquoise;
+    background-color:#fff;
     height: 100%;
     display: grid;
     grid-template-columns:1fr 1fr ;
     gap: 20px;
 }
 .box-content-section div{
-    background-color: blue;
+    background-color: rgb(235, 232, 96);
 }
 footer{
     grid-area: footer;
